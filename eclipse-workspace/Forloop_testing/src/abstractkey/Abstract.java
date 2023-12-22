@@ -1,0 +1,31 @@
+package abstractkey;
+
+abstract public class Abstract {
+	
+	//abstract int value =10;  //it cannot be create variable
+	
+	abstract public void play();
+	abstract protected void music();
+
+	/*
+	 * =====Abstract===
+	 * 
+	 * 1. it means a method is abstract the entire class also abstract 
+	 * 2. Abstract create 
+	 * 1. it can be create method 
+	 * 2. it can be create class 
+	 * 3. it cannot be
+	 * create variable 
+	 * 3.Abstract means not completed function 4. Abstrat
+	 * method cannot be created object
+	 * 
+	 */
+	void sing() {
+		System.out.println("singing");
+	}
+	public void listen() {
+		System.out.println("listening");
+	}
+	abstract public void hear();
+
+}

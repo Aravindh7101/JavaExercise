@@ -1,0 +1,13 @@
+package abstractkey;
+
+public class Abstractobj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Abstract abstobj = new Abstract(); ////Abstrat method cannot be created obj
+		//abstobj.play();
+
+	}
+
+}

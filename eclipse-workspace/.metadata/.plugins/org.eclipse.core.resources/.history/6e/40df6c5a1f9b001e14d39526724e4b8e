@@ -1,0 +1,21 @@
+package singleinheritance;
+
+public class Father {
+      private int check = 1000; //private class value only accepted in this classs only 
+      
+      protected String petname = "mani";
+      
+      public void run() {
+    	  System.out.println(" Father ryn daily");
+      }
+      private void yoga() {
+    	  System.out.println(" Father yoga ");
+      }
+       void act() {
+    	   System.out.println("father acting well");
+       }
+       protected void open() {
+    	   System.out.println("Father open new accoiunt");
+		
+	}
+}

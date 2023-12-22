@@ -1,0 +1,15 @@
+package singleinheritancecompare;
+
+import singleinheritance.Father;
+
+public class Son extends Father {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Son sonobj = new Son();
+          sonobj.open();
+          String name =sonobj.petname;
+          System.out.println("petname is "+name );
+	}
+
+}

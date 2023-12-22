@@ -1,0 +1,10 @@
+package multipleof3and5;
+
+public class MultipleofNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

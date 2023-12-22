@@ -1,0 +1,20 @@
+package tostring;
+
+import java.util.ArrayList;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String n = new String("create string ");
+		System.out.println(n);
+		Integer i = 10;
+		System.out.println(i);
+		ArrayList one = new ArrayList();
+		one.add("aravindh");
+		System.out.println(one);
+
+	}
+
+}

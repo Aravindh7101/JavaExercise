@@ -1,0 +1,34 @@
+package interviewsum;
+
+public class Excersise {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// o/p = 2 6 12 20 30 
+		//clue = 1*2 2*3 3*4  4*5 5*6
+		Excersise excer = new Excersise();
+		excer.decre();
+		int i =1;
+		while(i<=5) {
+			//i=i*(i+1);
+			System.out.println("increment o/p "+i*(i+1));
+			i++;
+		}
+
+	}
+
+	private void decre() {
+		// TODO Auto-generated method stub
+		//o/p= 10 9 8 7 6
+		//clu= 1 2 3 4 5
+		
+		int i  = 1;
+		int j = 10;
+		for(int t = i; t<=5; t++) {
+			System.out.println("decrement o/p "+j);
+			j--;
+		}
+		
+	}
+
+}

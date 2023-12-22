@@ -1,0 +1,55 @@
+package hashcodeandequals;
+
+import java.util.HashSet;
+import java.util.Objects;
+import java.util.Set;
+
+public class Employee {
+	String name;
+	int id;
+	public Employee(String names,int ids) {
+		this.name =names;
+		this.id=ids;
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//set and sethash is used to romove the 
+		
+		Employee oneper = new Employee("Suresh",4123);
+		Employee secondpers = new Employee("ramesh",4123);
+		Set<Employee> employes = new HashSet<Employee>();
+		employes.add(oneper);
+		employes.add(secondpers);
+		System.out.println(employes);
+		
+
+	}
+
+	
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, name);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return id == other.id && Objects.equals(name, other.name);
+	}
+
+	@Override
+	public String toString() {
+		return "[name=" + name + ", id=" + id + "]";
+	}
+	
+
+}

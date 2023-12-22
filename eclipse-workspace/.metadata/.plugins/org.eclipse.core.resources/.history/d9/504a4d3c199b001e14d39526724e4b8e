@@ -1,0 +1,14 @@
+package encasulationprotected;
+
+public class Owner { 
+	
+	protected int seed = 10;
+	
+	protected void fruit() {
+		System.out.println("This is fruit class");
+	}
+	private void vegetable() {
+		System.out.println(" this is vegrtable class");
+	}
+
+}

@@ -1,0 +1,11 @@
+package defaultaccesspecifier;
+
+public class Neighbour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          GardenOwner representative = new GardenOwner();
+          representative.mango();
+	}
+
+}

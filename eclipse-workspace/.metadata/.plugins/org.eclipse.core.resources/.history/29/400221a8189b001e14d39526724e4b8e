@@ -1,0 +1,10 @@
+package encasulationprotected;
+
+public class Neighbour {
+	public static void main(String []args) {
+		Owner fruit = new Owner();
+		fruit.fruit();
+
+    }
+	
+}

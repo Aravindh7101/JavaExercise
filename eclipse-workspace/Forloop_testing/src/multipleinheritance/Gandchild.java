@@ -1,0 +1,18 @@
+package multipleinheritance;
+
+import hierarchicalinheritance.Daughter;
+
+public class Gandchild extends Daughter{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Gandchild granobj = new Gandchild();
+		granobj.sing();
+		granobj.act();
+
+	}
+	protected void act() {
+		System.out.println("grand son singing");
+	}
+
+}

@@ -1,0 +1,13 @@
+package tostring;
+
+public class Employee {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String n = new String("create string ");
+		System.out.println(n);
+
+	}
+
+}

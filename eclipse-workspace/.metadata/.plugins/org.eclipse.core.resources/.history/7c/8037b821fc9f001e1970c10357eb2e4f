@@ -1,0 +1,38 @@
+package arrayinterview;
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Example arra = new Example();
+		arra.whilemed();
+		arra.dowhile();
+
+		int[] arr = { 10, 20, 30, 40, 50 };
+		for (int j = 0; j < arr.length; j++) {
+			System.out.println("array length " + arr[j]);
+		}
+
+	}
+
+	private void dowhile() {
+		// TODO Auto-generated method stub
+		int [] i = {20,40,50,10,30,100};
+		int o =0;
+		do {
+			System.out.println("do while loop "+i[o]);
+		}while(o>i.length);
+		o++;
+	}
+
+	private void whilemed() {
+		// TODO Auto-generated method stub
+		int k = 0;
+		int[] j = { 1, 4, 5, 10, 15, 50 };
+		while (k < j.length) {
+			System.out.println("while loop using " + j[k]);
+			k++;
+		}
+	}
+
+}

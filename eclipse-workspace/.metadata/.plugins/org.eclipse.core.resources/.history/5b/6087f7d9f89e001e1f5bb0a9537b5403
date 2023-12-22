@@ -1,0 +1,30 @@
+package findNnumbers;
+
+public class Nnumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int value = 10;
+		int n = 0;
+		for (int i = 1; i <= value; i++) {
+			n = n + i;
+		}
+		System.out.println("sum of n number " + n);
+		
+		Nnumber number =new Nnumber();
+		number.whileadd();
+
+	}
+
+	public void whileadd() {
+		int i =0;
+		int value =1;
+		int n =10;
+		while(value<=n) {
+			i = i+value;
+			value++;
+		}
+		System.out.println("sum of number in while "+i);
+
+	}
+}

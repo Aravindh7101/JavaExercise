@@ -1,0 +1,23 @@
+package singleinheritancecompare;
+
+import singleinheritance.Father;
+
+public class Son extends Father {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          Son sonobj = new Son();
+          sonobj.open();
+          sonobj.act();
+          String name =sonobj.petname;
+          System.out.println("petname is "+name );
+	}
+	
+	protected  void act() {
+		System.out.println("he is a good acter of suriya");
+	}
+	protected void sing() {
+		System.out.println("Female singing");
+	}
+
+}

@@ -1,0 +1,11 @@
+package encapsulationprotect2;
+
+import encasulationprotected.Owner;
+
+public class Son extends Owner {
+      public static void main(String []args) {
+    	  Son ownobj =new Son();
+    	  ownobj.fruit();
+    	  ownobj.apple();
+      }
+}
